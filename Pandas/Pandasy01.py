@@ -53,3 +53,8 @@ def main():
     
 if __name__ == "__main__":
     main()
+
+
+#python Pandasy01.py -i titanic.csv -v (bez filtrowania i zapisu)
+#python Pandasy01.py -i titanic.csv --age_range 30-40 -v (z zakresem)
+#python Pandasy01.py -i titanic.csv --age_range 30-40 -o wynik.csv -f csv -v (z zakresem i zapisem)
